@@ -1,0 +1,3 @@
+import {test} from 'node:test'; import {equal,deepEqual} from 'node:assert/strict'; import {pareto,dominates} from '../src/frontier';
+test('dominance removes worse candidate',()=>{const a={id:'a',securityBits:150,failureLog2:-120,publicKeyBytes:1000,ciphertextBytes:1000},b={id:'b',securityBits:100,failureLog2:-80,publicKeyBytes:1200,ciphertextBytes:1400};equal(dominates(a,b),true);deepEqual(pareto([a,b]).map(x=>x.id),['a']);});
+test('tradeoff remains on frontier',()=>{const a={id:'a',securityBits:150,failureLog2:-120,publicKeyBytes:2000,ciphertextBytes:2000},b={id:'b',securityBits:130,failureLog2:-100,publicKeyBytes:1000,ciphertextBytes:1000};equal(pareto([a,b]).length,2);});

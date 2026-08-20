@@ -1,0 +1,6 @@
+engine-cpp/build/
+studio-ts/build/
+studio-ts/build-tests/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,5 @@
+LATTICEFORGE v0.1
+Algorithm: SPECTRA-Omega
+Purpose: lattice-cryptography parameter constraint search and counterexample-first validation
+Verified languages: C++23, Python 3, TypeScript
+Security claim: VALID UNDER DECLARED MODEL only

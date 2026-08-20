@@ -1,0 +1,22 @@
+{
+  "algorithm_version": "SPECTRA-\u03a9/v0.1",
+  "status": "VALID_UNDER_DECLARED_MODEL",
+  "candidate": {
+    "n": 1024,
+    "q": 12289,
+    "k": 4,
+    "sigma": 3.2,
+    "eta": 2
+  },
+  "models": {
+    "primal-reference": 896.0451149868301,
+    "dual-reference": 850.5046042348451,
+    "hybrid-reference": 792.7965734887239
+  },
+  "constraints": {
+    "security_bits": 128,
+    "max_failure_log2": -96
+  },
+  "counterexample": null,
+  "sha256": "952636414fa2cb637a0fc05ab17a25c844b390a1cc26ea0f7f8946dd820909f9"
+}

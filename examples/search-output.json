@@ -1,0 +1,29 @@
+{
+  "algorithm": "SPECTRA-Omega",
+  "tested": 216,
+  "feasible": 173,
+  "pareto_count": 21,
+  "pareto": [
+    {"n":1024,"q":7681,"k":4,"sigma":2.80,"eta":2,"security_bits":790.61,"failure_log2":-330.32,"public_key_bytes":8352,"ciphertext_bytes":8448,"cheapest_attack":"hybrid-reference","certificate_hash":"ecbf8a02d07365f4"},
+    {"n":768,"q":12289,"k":4,"sigma":2.80,"eta":2,"security_bits":614.46,"failure_log2":-1129.79,"public_key_bytes":6752,"ciphertext_bytes":6816,"cheapest_attack":"hybrid-reference","certificate_hash":"ed84323235402114"},
+    {"n":768,"q":7681,"k":4,"sigma":2.80,"eta":2,"security_bits":611.41,"failure_log2":-440.76,"public_key_bytes":6272,"ciphertext_bytes":6336,"cheapest_attack":"hybrid-reference","certificate_hash":"39bb643a7b1837a5"},
+    {"n":768,"q":12289,"k":3,"sigma":2.80,"eta":2,"security_bits":480.06,"failure_log2":-1506.71,"public_key_bytes":5408,"ciphertext_bytes":5472,"cheapest_attack":"hybrid-reference","certificate_hash":"acec04745546b4e6"},
+    {"n":768,"q":7681,"k":3,"sigma":2.80,"eta":2,"security_bits":477.01,"failure_log2":-588.01,"public_key_bytes":5024,"ciphertext_bytes":5088,"cheapest_attack":"hybrid-reference","certificate_hash":"786cb540d1fa96a8"},
+    {"n":768,"q":3329,"k":3,"sigma":2.80,"eta":2,"security_bits":471.58,"failure_log2":-109.64,"public_key_bytes":4640,"ciphertext_bytes":4704,"cheapest_attack":"hybrid-reference","certificate_hash":"377e8ea11ca0eff5"},
+    {"n":512,"q":12289,"k":4,"sigma":2.80,"eta":2,"security_bits":435.26,"failure_log2":-1695.18,"public_key_bytes":4512,"ciphertext_bytes":4544,"cheapest_attack":"hybrid-reference","certificate_hash":"5bac87dd0450242f"},
+    {"n":512,"q":7681,"k":4,"sigma":2.80,"eta":2,"security_bits":432.21,"failure_log2":-661.63,"public_key_bytes":4192,"ciphertext_bytes":4224,"cheapest_attack":"hybrid-reference","certificate_hash":"9a1e67c2967995c7"},
+    {"n":512,"q":3329,"k":4,"sigma":2.80,"eta":2,"security_bits":426.78,"failure_log2":-123.47,"public_key_bytes":3872,"ciphertext_bytes":3904,"cheapest_attack":"hybrid-reference","certificate_hash":"239b4aeb6e7f010f"},
+    {"n":512,"q":12289,"k":3,"sigma":2.80,"eta":2,"security_bits":345.66,"failure_log2":-2260.57,"public_key_bytes":3616,"ciphertext_bytes":3648,"cheapest_attack":"hybrid-reference","certificate_hash":"155995568435efd5"},
+    {"n":512,"q":7681,"k":3,"sigma":2.80,"eta":2,"security_bits":342.61,"failure_log2":-882.51,"public_key_bytes":3360,"ciphertext_bytes":3392,"cheapest_attack":"hybrid-reference","certificate_hash":"a940b6589c65df34"},
+    {"n":512,"q":3329,"k":3,"sigma":2.80,"eta":2,"security_bits":337.18,"failure_log2":-164.96,"public_key_bytes":3104,"ciphertext_bytes":3136,"cheapest_attack":"hybrid-reference","certificate_hash":"b4e507c906ef3e60"},
+    {"n":256,"q":12289,"k":4,"sigma":2.80,"eta":2,"security_bits":256.06,"failure_log2":-3391.36,"public_key_bytes":2272,"ciphertext_bytes":2272,"cheapest_attack":"hybrid-reference","certificate_hash":"d3e010d99d62ab9"},
+    {"n":256,"q":7681,"k":4,"sigma":2.80,"eta":2,"security_bits":253.01,"failure_log2":-1324.27,"public_key_bytes":2112,"ciphertext_bytes":2112,"cheapest_attack":"hybrid-reference","certificate_hash":"96896f52f907d24f"},
+    {"n":256,"q":3329,"k":4,"sigma":2.80,"eta":2,"security_bits":247.58,"failure_log2":-247.94,"public_key_bytes":1952,"ciphertext_bytes":1952,"cheapest_attack":"hybrid-reference","certificate_hash":"b954fe751f30da9f"},
+    {"n":256,"q":12289,"k":3,"sigma":2.80,"eta":2,"security_bits":205.26,"failure_log2":-4522.14,"public_key_bytes":1824,"ciphertext_bytes":1824,"cheapest_attack":"hybrid-reference","certificate_hash":"a828e56a05789ec"},
+    {"n":256,"q":7681,"k":3,"sigma":2.80,"eta":2,"security_bits":202.21,"failure_log2":-1766.03,"public_key_bytes":1696,"ciphertext_bytes":1696,"cheapest_attack":"hybrid-reference","certificate_hash":"166c835b587204d8"},
+    {"n":256,"q":3329,"k":3,"sigma":2.80,"eta":2,"security_bits":196.78,"failure_log2":-330.92,"public_key_bytes":1568,"ciphertext_bytes":1568,"cheapest_attack":"hybrid-reference","certificate_hash":"e25f8969e1d25777"},
+    {"n":256,"q":12289,"k":2,"sigma":2.80,"eta":2,"security_bits":154.46,"failure_log2":-6783.72,"public_key_bytes":1376,"ciphertext_bytes":1376,"cheapest_attack":"hybrid-reference","certificate_hash":"c25f8c3277355306"},
+    {"n":256,"q":7681,"k":2,"sigma":2.80,"eta":2,"security_bits":151.41,"failure_log2":-2649.54,"public_key_bytes":1280,"ciphertext_bytes":1280,"cheapest_attack":"hybrid-reference","certificate_hash":"3efcceeac0357590"},
+    {"n":256,"q":3329,"k":2,"sigma":2.80,"eta":2,"security_bits":145.98,"failure_log2":-496.88,"public_key_bytes":1184,"ciphertext_bytes":1184,"cheapest_attack":"hybrid-reference","certificate_hash":"a11cd53a869c916a"}
+  ]
+}

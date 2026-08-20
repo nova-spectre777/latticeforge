@@ -1,0 +1,11 @@
+{
+  "target_security_bits": 128,
+  "max_failure_log2": -96,
+  "max_public_key_bytes": 9000,
+  "max_ciphertext_bytes": 9000,
+  "n_values": [256, 512, 768, 1024],
+  "q_values": [3329, 7681, 12289],
+  "k_values": [2, 3, 4],
+  "sigma_values": [2.8, 3.2, 3.6],
+  "eta_values": [2, 3]
+}

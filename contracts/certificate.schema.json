@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LATTICEFORGE certificate",
+  "type": "object",
+  "required": ["algorithm_version", "status", "candidate", "models", "constraints"],
+  "properties": {
+    "algorithm_version": {"type": "string"},
+    "status": {"enum": ["VALID_UNDER_DECLARED_MODEL", "REJECTED", "UNKNOWN"]},
+    "candidate": {"type": "object"},
+    "models": {"type": "array"},
+    "constraints": {"type": "array"},
+    "counterexample": {"type": ["object", "null"]}
+  }
+}

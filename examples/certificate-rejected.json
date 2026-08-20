@@ -1,0 +1,25 @@
+{
+  "algorithm_version": "SPECTRA-\u03a9/v0.1",
+  "status": "REJECTED",
+  "candidate": {
+    "n": 256,
+    "q": 3329,
+    "k": 2,
+    "sigma": 3.2,
+    "eta": 2
+  },
+  "models": {
+    "primal-reference": 151.9040812486958,
+    "dual-reference": 156.63936374908403,
+    "hybrid-reference": 145.11764312440314
+  },
+  "constraints": {
+    "security_bits": 300,
+    "max_failure_log2": -1
+  },
+  "counterexample": {
+    "cheapest_attack": "hybrid-reference",
+    "cost_bits": 145.11764312440314
+  },
+  "sha256": "913775d63d7607480f07e32b14200537370efafbcd90d063c118fece01bb0d70"
+}
